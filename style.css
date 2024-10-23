@@ -1,0 +1,85 @@
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.top {
+    display: flex;
+    height:30px;
+   margin:10px 100px 0;
+    justify-content:space-between;
+    
+}
+.bottom {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    padding: 0 40px;
+ 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li {
+    padding: 10px;
+    font-size: 16px;
+}
+ul li a {
+    text-decoration: none;
+    color: gray;
+    opacity: 20px;
+}
+img {
+    padding-left :20px; ;
+}
+ .bottom .left {
+    width:20px;
+ }
+
+  .bottom .right button {
+    background-color: blue;
+    border-radius: 64px;
+    height: 37px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+.cover-image {
+    background-image:url(/image/thought-catalog-23KdVfc395A-unsplash.png);
+    height:500px ;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.cover-text {
+    position: absolute;
+    text-align:center ;
+    left: 80px;
+     top: 190px;
+  
+}
+.cover-text span {
+    color: blue;
+}
+.cover-text p{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+
